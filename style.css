@@ -1,0 +1,54 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.searchdiv{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 15rem;
+    height: 1.5rem;
+    padding: 8px 20px;
+    margin: 2rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+button{
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+.outputResult{
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.outputResult p{
+    /* border: 2px solid green; */
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:520px){
+
+
+    input{
+        width: 6rem;
+        height: .8rem;
+        /* padding: 8px 20px; */
+        /* margin: 2rem 2rem; */
+    }
+
+    button{
+        padding: 5px 10px;
+        font-size: .8rem;
+    }
+    .outputResult p{
+        font-size: .8rem;
+    }
+}
